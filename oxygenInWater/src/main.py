@@ -47,7 +47,7 @@ def read_root():
     return HTMLResponse(content=html_content, status_code=200)
 
  
-@app.post("/calcOxygenInWater",response_model=compressorResults,description="Calculate the polytropic efficiency of a compressor")
+@app.post("/calcOxygenInWater",response_model=compressorResults,description="Calculate the oxygen solubility in the water")
 def calcOxygenInWater(oxCalc:oxygenInWater):
     calcRes = oxCalc.calcOxygenInWater()
     results = {
