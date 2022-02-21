@@ -10,6 +10,7 @@ class oxygenInWater(BaseModel):
     oxygen: float=0.01
     pressure: float=0.9
     temperature: float=0.1
+    temp= 1.0
     
     def calcOxygenInWater(self):
         gascondensate = {
