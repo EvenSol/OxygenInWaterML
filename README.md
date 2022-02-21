@@ -1,6 +1,2 @@
-# NeqSim demo API
-This is a simple demo API using fast API and NeqSim
-
-Use the template, rename the demoAPI folder, make changes to the code. Test your API by running it locally as demonstrated in the example folder. 
-
-To get it into [NeqSimLive](https://github.com/equinor/NeqSimLive) make a PR there adding the repository as a submodule.
+# NeqSim demo of making an API for calculation of oxygen in water
+In this demo project we make an API for calculating the oxygen content in water based on the NeqSimLive API template.
